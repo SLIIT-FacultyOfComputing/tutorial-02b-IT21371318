@@ -17,11 +17,11 @@ int main()
 {
    double salary, netSalary;
    int etype, otHrs, otRate;
-   printf("Enter Employee Type : ");
+   std::cout<<"Enter Employee Type : ";
    scanf("%d", &etype);
-   printf("Enter Salary  : ");
+   std::cout<<"Enter Salary  : ";
    scanf("%f", &salary);
-   printf("Enter OtHrs : ");
+  std::cout<<"Enter OtHrs : ");
    scanf("%d", &otHrs); 
    
    switch (etype) {
